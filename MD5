@@ -1,0 +1,17 @@
+c35817f205a26efb90ff8b3826689ec9 *DESCRIPTION
+028649d591defa5f6e09a8151f50cbca *NAMESPACE
+4e26def224b9103c6ba504781461be20 *R/CUR.R
+f5bdb33f9ce23c45a5e3181bdbfcf4b2 *R/CX.R
+d61a38c8d87f8fe0092e89511c7de93f *R/MultiCX.R
+5b36062ca2622c6058231936fc0c0a7a *R/ccTensor-internal.R
+ea5f940a8fc09584bd454a480d1ea301 *README.md
+d1e3c02ab9d62fa559a67afb4d18db0e *build/partial.rdb
+237e0daf6276abb460d0b69cb0d2d242 *inst/NEWS
+3e088d9c0e33a0704c3dbdc87f1c8470 *man/CUR.Rd
+7332adb5debc9bb25eda2a70692eacb6 *man/CX.Rd
+3c3b534a9d46963aa35d6d38c2c67e38 *man/MultiCX.Rd
+dbf28378fb1164d619fea0366e4b8751 *man/ccTensor-package.Rd
+bfcca436ef09f693fd4e562c00cdd960 *tests/testthat.R
+75dd757920cec41eb4dfeda7eaa5d9bd *tests/testthat/test_CUR.R
+d3c319b3037cc94bbe96373694d57130 *tests/testthat/test_CX.R
+0dc9af7152de66721783fdecabf79d7a *tests/testthat/test_MultiCX.R
