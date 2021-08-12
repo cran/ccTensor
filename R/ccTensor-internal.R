@@ -1,4 +1,7 @@
 .levScores <- function(score, k){
+    if(is.vector(score)){
+        score <- as.matrix(score)
+    }
     if(k == 1){
         score[,1]^2
     }else{
@@ -52,6 +55,7 @@
         cor.matrix <- abs(cor(score, A))
         rownames(cor.matrix) <- evec
         colnames(cor.matrix) <- seq(ncol(A))
+        cor.matrix[which(is.na(cor.matrix))] <- 0
         g <- graph_from_incidence_matrix(cor.matrix, weighted=TRUE)
         indC <- as.numeric(as.vector(max_bipartite_match(g)$matching[evec]))
         list(C=A[, indC], indC=indC)
